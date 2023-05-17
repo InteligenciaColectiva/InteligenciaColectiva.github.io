@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DR Frio Soluciones</title>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon_io/favicon-16x16.png">
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/Lstyle.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/maqueta.css">
+
+</head>
+
+<body>
+    <header>
+        <!--boton menu responsivo-->
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" class="lbl-menu">
+            <span id="spn1"></span>
+            <span id="spn2"></span>
+            <span id="spn3"></span>
+        </label>
+
+        <!--navigation bar-->
+        <nav class="menu">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <!--
+                <li><a href="">Productos</a></li>
+                <li><a href="">Clientes</a></li>-->
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    
+        <!--inicio banner-->
+        <section class="background" id="hero">
+            <h1 class="servyrep">
+                ¡Somos <span class="color-acento">DR Frio!</span>
+                <br>
+                Reparaciones de emergencias las 24HS
+            </h1>
+            <a href="https://chat.whatsapp.com/LFZoTQftvMpDiYFL2LZS4p"><button>Contrata ahora</button></a>
+        </section>
+        <!--fin contrata nuestros servicios banner-->
+    </header>
+
+
+    <!--seccion servicios-->
+    <section class="servicios" id="contrata-ahora">
+
+        <div class="titulo1 container">
+            <h2>En <span class="color-acento">DR Frio</span></h2>
+            <p> Ofrecemos toda la línea de partes y refacciones especializadas para el mantenimiento, instalación y fabricación de los espacios de refrigeración.<br> En nuestros Centros de Distribución contamos con el más amplio inventario.</p>
+        </div>
+
+        <div class="cont-img program">
+            <div class="imagen1 carta">
+                <h3>Automatización y monitoreo de refrigeración</h3>
+                <p>Mantené el control total con nuestras soluciones en enfriamiento remoto</p>
+                <form action="#">
+                    <button>+Info</button>
+                </form>
+            </div>
+        
+            <div class=" imagen2 carta">
+                <h3>Garantía extendida</h3>
+                <p>Contáctenos para información sobre su garantia o para validar la misma. <br>
+                Informamos que los reportes de garantías también  puede realizarlos mediante llamada telefónica sin costo al: <strong>11 2718-2954</strong></p>
+                <form action="#">
+                    <button>+Info</button>
+                </form>
+            </div>
+        
+            <div class="imagen3 carta">
+                <h3>Refacciones para Cuartos Fríos </h3>
+                <p>En DR. FRIO contamos con refacciones y accesorios originales de las más prestigiosas marcas del mercado.</p>
+                <form action="#">
+                    <button>+Info</button>
+                </form>
+            </div>   
+        </div>
+    </section>
+
+    <!--seccion nuestro trabajo-->
+    <section class="seccion2" id="servicios">
+        <div class="nuestrotrabajo container">
+            <div class="titulo2">
+                <h2>Service Oficiales</h2>
+                <p>Trabajamos con Todas las Marcas</p>
+            </div>
+
+            <div class="img-marcas">
+                <img class="img-marcas" src="img/patrick.png" alt="patrick">
+                <img class="img-marcas" src="img/drean.jpeg" alt="drean">
+                <img class="img-marcas" src="img/General_Electric.png" alt="general electric">
+                <img class="img-marcas" src="img/Whirlpool.png" alt="whirlpool"> 
+                <img class="img-marcas" src="img/electrolux.png" alt="electrolux">
+            </div>
+        </div>
+
+        <div class="nuestrotrabajo container">
+            <h3>Nuestros servicios - 2023</h3>
+            <ul>
+                <li>❄️Panel para refrigeracion.</li>
+                <li>❄️Marcos y puertas tipo Reach-in</li> 
+                <li>❄️Equipos para refrigeracion industrial de media y baja temperatura</li>
+                <li>❄️Cortinas hawaianas</li>
+                <li>❄️Puertas de acceso</li>
+                <li>❄️Deslizadores</li>
+                <li>❄️Refacciones y accesorios</li>  
+            </ul>
+        </div>
+    </section>
+
+    <!--seccion contacto-->
+    <section class="contacto" id="contacto">
+        <div class="cabecera">
+            <h2>Contacto</h2>
+            <ul id="lista-contacto">
+                <li><strong>Estamos para ayudarte, contactanos</strong></li>
+                <li><i class="fa-brands fa-whatsapp" style="margin-right: 5px; color:#578fe2;"></i>Escribenos un Whatsapp al:
+                11 2243-1005</li>
+                <li><i class="fa-solid fa-phone-flip" 
+                style="margin-right: 5px; color:#578fe2;"></i>Llamanos al: 11 2243-1005</li>
+                <li><i class="fa-solid fa-envelope" 
+                style="margin-right: 5px; color:#578fe2;"></i>Envianos un email a: 
+                <a href="mailto:drfrio@miemail.com">drfrio@miemail.com</a></li>
+            </ul>
+        </div>
+
+        <div class="formulario">
+            <form id="form" class="form" action="" method="">
+                <div class="input-group">
+                    <div class="form-control">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" 
+                            name="nombre" 
+                            id="nombre" 
+                            placeholder="Ingresa tu nombre">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+        
+                    <div class="form-control">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" 
+                            name="telefono" 
+                            id="telefono" 
+                            placeholder="Ingresa tu telefono">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+        
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" 
+                            name="email" 
+                            id="email" 
+                            placeholder="example@email.com">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+        
+                    <div class="form-control">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" 
+                            id="mensaje" 
+                            cols="38" 
+                            rows="5" 
+                            placeholder="Ingresa tu mensaje"></textarea>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <button class="boton" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- script para validacion del formulario -->
+    <script src="../validacion/validacion.js"></script>
+
+
+
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <img src="img/Dr._Frio.png" alt="logo-footer">
+            <p class="copyright">&copy; DR. Frio 2023 todos los derechos reservados. │Creado por Grupo 4 Comision 23034</p>
+        </div>
+    </footer>
+
+</body>
+</html>
